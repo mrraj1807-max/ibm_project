@@ -1,0 +1,59 @@
+# -----------------------------------------------------------------
+#  .gitignore - Coffee Value Benchmark Project
+# -----------------------------------------------------------------
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model artifacts (large binaries)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Optuna study databases
+*.db
+
+# Temporary Bob AI working directory
+.bob/
